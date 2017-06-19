@@ -1,0 +1,44 @@
+/*import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');*/
+body{
+  background-color: #e5f2ff;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  font-family: 'leckerli One', cursive;
+  margin: 20px 0;
+}
+footer{
+  text-align: center;
+  font-style: italic;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.container{
+  width: 40%;
+  margin: 0 auto;
+}
+form div{
+  padding: 5px 0;
+}
+form div label{
+  display: block;
+  padding-bottom: 5px;
+}
+textarea{
+  width: 100%;
+  min-height: 100px;
+}
+ul{
+  list-style: none;
+}
+.bold{
+  font-weight: bold;
+}

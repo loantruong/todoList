@@ -1,0 +1,123 @@
+#board{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+
+  border-spacing: 0;
+  border-collapse: collapse;
+
+  background-color: white;
+}
+#board-title{
+  color: white;
+  background-color: #c34d6e;
+}
+#board tr{
+  font-family: 'Open Sans', sans-serif;
+}
+#board th{
+  border: 1px solid #d0e0f5;
+}
+#board td{
+  border: 1px solid #d0e0f5;
+  color: #000;
+  background-color: #fff;
+  padding: 2px 5px;
+}
+#projet{
+  min-width: 150px;
+}
+.icon{
+  width: 23px;
+  height: 23px;
+  padding: 5px;
+}
+.text-center{
+  text-align: center;
+}
+.button-add-project{
+  width: 170px;
+  border-radius: 5px;
+  background-color: #000;
+  text-align: center;
+
+  margin: 15px auto;
+  padding: 10px 0;
+  color: #fff;
+}
+.button-submit{
+  width: 180px;
+  border-radius: 5px;
+  background-color: #000;
+  text-align: center;
+  border: none;
+  margin: 15px auto;
+  padding: 10px 0;
+  color: #fff;
+}
+.button{
+  width: 70px;
+  border-radius: 5px;
+  background-color: #c34d6e;
+  text-align: center;
+  padding: 5px 0;
+  color: #fff;
+}
+.icon-add{
+  background: url("../img/add.svg") 0 0;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.message{
+  margin-left: 5%;
+  color: #160b65;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  width: 12%;
+}
+.message-success{
+  border-bottom: 2px solid #a5b9e6;
+}
+.message-error{
+  border-bottom: 2px solid #ad3c7b;
+}
+.non_commence{
+  /*border-left: 5px solid #E2000C !important;*/
+  background-color: rgba(226, 0, 12, 0.90) !important;
+  color: #fff !important;
+}
+.attente_element{
+  /*border-left: 5px solid #f75800 !important;*/
+  background-color: rgba(247, 88, 0, 0.90) !important;
+  color: #fff !important;
+}
+.en_cours{
+  /*border-left: 5px solid #FFD400 !important;*/
+  background-color: rgba(255, 212, 2, 0.90) !important;
+  color: #000 !important;
+}
+.modification{
+  /*border-left: 5px solid #CC00E2 !important;*/
+  background-color: rgba(142, 69, 148, 0.90) !important;
+  color: #fff !important;
+}
+.cours_validation{
+  /*border-left: 5px solid #0B50B5 !important;*/
+  background-color: rgba(35, 83, 161, 0.90) !important;
+  color: #fff !important;
+}
+.declinaison{
+  /*border-left: 5px solid #45D7EF !important;*/
+  background-color: rgba(99, 197, 224, 0.90) !important;
+  color: #fff !important;
+}
+.valider{
+  /*border-left: 5px solid #42C605 !important;*/
+  background-color: rgba(90, 176, 49, 0.90) !important;
+  color: #fff !important;
+}
+.comment-size{
+  max-width: 350px;
+}
